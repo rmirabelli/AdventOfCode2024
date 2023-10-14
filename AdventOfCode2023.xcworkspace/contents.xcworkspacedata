@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:01/01.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:02/02.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:03/03.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:04/04.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05/05.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:06/06.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:07/07.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:08/08.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:09/09.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:10/10.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:11/11.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:12/12.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:13/13.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:14/14.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:15/15.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:16/16.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:17/17.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:18/18.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:19/19.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:20/20.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:21/21.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:22/22.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:23/23.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:24/24.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:25/25.xcodeproj">
+   </FileRef>
+</Workspace>
