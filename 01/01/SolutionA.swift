@@ -8,6 +8,7 @@
 import Foundation
 import RegexBuilder
 import AOCKit
+import Algorithms
 
 struct SolutionA: SolutionProtocol {
     var name = "Day 1 part 1"
@@ -28,6 +29,10 @@ struct SolutionA: SolutionProtocol {
 //        let s = try! bigger.firstMatch(in: data.first!)!
         let a = data.map { try! bigger.firstMatch(in: $0)![number] }
         let nums = a.map {Int($0)}
+        let nums2 = nums.uniquePermutations(ofCount: 2)
+        for n in nums2 {
+            print(n[0])
+        }
         let sum = nums.reduce(0) { partialResult, val in
             partialResult + val
         }

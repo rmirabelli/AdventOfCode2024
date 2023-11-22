@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/01-master.swiftconstvalues",
+    "dependencies" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/01-master.d",
+    "diagnostics" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/01-master.dia",
+    "emit-module-dependencies" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/01-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/01-master-emit-module.dia",
+    "swift-dependencies" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/01-master.swiftdeps"
+  },
+  "/Users/russell/projects/AdventOfCode2023/01/01/main.swift" : {
+    "index-unit-output-path" : "/01.build/Release/01.build/Objects-normal/arm64/main.o",
+    "llvm-bc" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/main.bc",
+    "object" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/main.o"
+  },
+  "/Users/russell/projects/AdventOfCode2023/01/01/SolutionA.swift" : {
+    "index-unit-output-path" : "/01.build/Release/01.build/Objects-normal/arm64/SolutionA.o",
+    "llvm-bc" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/SolutionA.bc",
+    "object" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/SolutionA.o"
+  },
+  "/Users/russell/projects/AdventOfCode2023/01/01/SolutionB.swift" : {
+    "index-unit-output-path" : "/01.build/Release/01.build/Objects-normal/arm64/SolutionB.o",
+    "llvm-bc" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/SolutionB.bc",
+    "object" : "/Users/russell/projects/AdventOfCode2023/01/build/01.build/Release/01.build/Objects-normal/arm64/SolutionB.o"
+  }
+}

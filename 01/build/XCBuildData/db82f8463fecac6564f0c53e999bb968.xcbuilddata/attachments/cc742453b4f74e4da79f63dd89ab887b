@@ -2,13 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
-	<dict>
-		<key>18.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>21</integer>
-		</dict>
-	</dict>
+	<key>com.apple.application-identifier</key>
+	<string>35RU8AKZX8.</string>
+	<key>com.apple.security.get-task-allow</key>
+	<true/>
 </dict>
 </plist>
