@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46231FB32B0E5A83001F152E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 46231FB22B0E5A83001F152E /* Algorithms */; };
+		46231FBB2B0E81E7001F152E /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46231FBA2B0E81E7001F152E /* AOCKit */; };
+		46231FC02B0E82D7001F152E /* SolutionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46231FBE2B0E82D7001F152E /* SolutionA.swift */; };
+		46231FC12B0E82D7001F152E /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46231FBF2B0E82D7001F152E /* SolutionB.swift */; };
 		468E2F212ADAF54A00B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F202ADAF54A00B274BD /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		46231FBC2B0E82A3001F152E /* RealData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealData.txt; sourceTree = "<group>"; };
+		46231FBD2B0E82A3001F152E /* SampleData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData.txt; sourceTree = "<group>"; };
+		46231FBE2B0E82D7001F152E /* SolutionA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionA.swift; sourceTree = "<group>"; };
+		46231FBF2B0E82D7001F152E /* SolutionB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionB.swift; sourceTree = "<group>"; };
 		468E2F1D2ADAF54A00B274BD /* 02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 02; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2F202ADAF54A00B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,17 +40,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46231FB32B0E5A83001F152E /* Algorithms in Frameworks */,
+				46231FBB2B0E81E7001F152E /* AOCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46231FB92B0E81E7001F152E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		468E2F142ADAF54A00B274BD = {
 			isa = PBXGroup;
 			children = (
 				468E2F1F2ADAF54A00B274BD /* 02 */,
 				468E2F1E2ADAF54A00B274BD /* Products */,
+				46231FB92B0E81E7001F152E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				468E2F202ADAF54A00B274BD /* main.swift */,
+				46231FBE2B0E82D7001F152E /* SolutionA.swift */,
+				46231FBF2B0E82D7001F152E /* SolutionB.swift */,
+				46231FBC2B0E82A3001F152E /* RealData.txt */,
+				46231FBD2B0E82A3001F152E /* SampleData.txt */,
 			);
 			path = 02;
 			sourceTree = "<group>";
@@ -78,6 +100,10 @@
 			dependencies = (
 			);
 			name = 02;
+			packageProductDependencies = (
+				46231FB22B0E5A83001F152E /* Algorithms */,
+				46231FBA2B0E81E7001F152E /* AOCKit */,
+			);
 			productName = 02;
 			productReference = 468E2F1D2ADAF54A00B274BD /* 02 */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +132,9 @@
 				Base,
 			);
 			mainGroup = 468E2F142ADAF54A00B274BD;
+			packageReferences = (
+				46231FB12B0E5A83001F152E /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 468E2F1E2ADAF54A00B274BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46231FC12B0E82D7001F152E /* SolutionB.swift in Sources */,
+				46231FC02B0E82D7001F152E /* SolutionA.swift in Sources */,
 				468E2F212ADAF54A00B274BD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +281,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35RU8AKZX8;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -261,7 +292,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35RU8AKZX8;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -289,6 +320,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		46231FB12B0E5A83001F152E /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46231FB22B0E5A83001F152E /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46231FB12B0E5A83001F152E /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		46231FBA2B0E81E7001F152E /* AOCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AOCKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 468E2F152ADAF54A00B274BD /* Project object */;
 }

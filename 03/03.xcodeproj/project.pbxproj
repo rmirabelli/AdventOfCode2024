@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4612DDAC2AFD3CDC001B922C /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDA82AFD3CDC001B922C /* SolutionB.swift */; };
+		4612DDAD2AFD3CDC001B922C /* SolutionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDA52AFD3CDC001B922C /* SolutionA.swift */; };
+		46231FCE2B0E84A0001F152E /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46231FCD2B0E84A0001F152E /* AOCKit */; };
 		468E2F342ADAF56400B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F332ADAF56400B274BD /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4612DDA52AFD3CDC001B922C /* SolutionA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionA.swift; sourceTree = "<group>"; };
+		4612DDA82AFD3CDC001B922C /* SolutionB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionB.swift; sourceTree = "<group>"; };
+		46231FC22B0E8458001F152E /* SampleData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData.txt; sourceTree = "<group>"; };
+		46231FC32B0E8458001F152E /* RealData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealData.txt; sourceTree = "<group>"; };
 		468E2F302ADAF56400B274BD /* 03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 03; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2F332ADAF56400B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,17 +39,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46231FCE2B0E84A0001F152E /* AOCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46231FCC2B0E84A0001F152E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		468E2F272ADAF56400B274BD = {
 			isa = PBXGroup;
 			children = (
 				468E2F322ADAF56400B274BD /* 03 */,
 				468E2F312ADAF56400B274BD /* Products */,
+				46231FCC2B0E84A0001F152E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				468E2F332ADAF56400B274BD /* main.swift */,
+				4612DDA52AFD3CDC001B922C /* SolutionA.swift */,
+				4612DDA82AFD3CDC001B922C /* SolutionB.swift */,
+				46231FC32B0E8458001F152E /* RealData.txt */,
+				46231FC22B0E8458001F152E /* SampleData.txt */,
 			);
 			path = 03;
 			sourceTree = "<group>";
@@ -78,6 +98,9 @@
 			dependencies = (
 			);
 			name = 03;
+			packageProductDependencies = (
+				46231FCD2B0E84A0001F152E /* AOCKit */,
+			);
 			productName = 03;
 			productReference = 468E2F302ADAF56400B274BD /* 03 */;
 			productType = "com.apple.product-type.tool";
@@ -120,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4612DDAC2AFD3CDC001B922C /* SolutionB.swift in Sources */,
 				468E2F342ADAF56400B274BD /* main.swift in Sources */,
+				4612DDAD2AFD3CDC001B922C /* SolutionA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +314,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46231FCD2B0E84A0001F152E /* AOCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AOCKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 468E2F282ADAF56400B274BD /* Project object */;
 }

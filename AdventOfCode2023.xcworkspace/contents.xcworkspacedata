@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AOCKit">
+   </FileRef>
+   <FileRef
       location = "group:01/01.xcodeproj">
    </FileRef>
    <FileRef
