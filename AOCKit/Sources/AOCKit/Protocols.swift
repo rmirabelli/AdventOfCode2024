@@ -16,3 +16,8 @@ public protocol SolutionProtocol {
     func execute(_ data: [String]) -> String
     var name: String {get}
 }
+
+public protocol DrawablePoint {
+    var point: Point2D { get }
+    var char: Character { get }
+}
