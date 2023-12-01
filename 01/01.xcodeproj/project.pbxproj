@@ -11,6 +11,7 @@
 		4612DD982AFD37BE001B922C /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DD972AFD37BE001B922C /* SolutionB.swift */; };
 		46231FB02B0E5A63001F152E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 46231FAF2B0E5A63001F152E /* Algorithms */; };
 		46231FB82B0E8070001F152E /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46231FB72B0E8070001F152E /* AOCKit */; };
+		46231FDD2B0EB138001F152E /* SwiftGraph in Frameworks */ = {isa = PBXBuildFile; productRef = 46231FDC2B0EB138001F152E /* SwiftGraph */; };
 		468E2F0E2ADAF53300B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F0D2ADAF53300B274BD /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 			files = (
 				46231FB02B0E5A63001F152E /* Algorithms in Frameworks */,
 				46231FB82B0E8070001F152E /* AOCKit in Frameworks */,
+				46231FDD2B0EB138001F152E /* SwiftGraph in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +105,7 @@
 			packageProductDependencies = (
 				46231FAF2B0E5A63001F152E /* Algorithms */,
 				46231FB72B0E8070001F152E /* AOCKit */,
+				46231FDC2B0EB138001F152E /* SwiftGraph */,
 			);
 			productName = 01;
 			productReference = 468E2F0A2ADAF53300B274BD /* 01 */;
@@ -134,6 +137,7 @@
 			mainGroup = 468E2F012ADAF53300B274BD;
 			packageReferences = (
 				46231FAE2B0E5A63001F152E /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				46231FDB2B0EB138001F152E /* XCRemoteSwiftPackageReference "SwiftGraph" */,
 			);
 			productRefGroup = 468E2F0B2ADAF53300B274BD /* Products */;
 			projectDirPath = "";
@@ -330,6 +334,14 @@
 				minimumVersion = 1.2.0;
 			};
 		};
+		46231FDB2B0EB138001F152E /* XCRemoteSwiftPackageReference "SwiftGraph" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davecom/SwiftGraph";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -341,6 +353,11 @@
 		46231FB72B0E8070001F152E /* AOCKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AOCKit;
+		};
+		46231FDC2B0EB138001F152E /* SwiftGraph */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46231FDB2B0EB138001F152E /* XCRemoteSwiftPackageReference "SwiftGraph" */;
+			productName = SwiftGraph;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
