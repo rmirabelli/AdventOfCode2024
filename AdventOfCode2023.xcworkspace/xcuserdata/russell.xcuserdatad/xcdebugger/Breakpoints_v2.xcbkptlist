@@ -3,4 +3,118 @@
    uuid = "DB13FE29-0CF6-4438-B844-4B4EE00E9029"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11769EA6-CC6E-436C-A8BC-5B49FF6FAFFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02/02/SolutionA.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "execute(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81E27D26-A094-4745-9364-C5818972A48A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02/02/SolutionB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "execute(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "81E27D26-A094-4745-9364-C5818972A48A - dcc5d3df0a0c95ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_2.SolutionB.execute(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/02/02/SolutionB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "81E27D26-A094-4745-9364-C5818972A48A - 714642b0fe8c22f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int, (Swift.Int, Swift.Int, Swift.Int)) -&gt; Swift.Int in _2.SolutionB.execute(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/02/02/SolutionB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1502524C-903F-476A-93C0-C0D69037F605"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02/02/SolutionB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "execute(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1502524C-903F-476A-93C0-C0D69037F605 - dcc5d3df0a0c95ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_2.SolutionB.execute(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/02/02/SolutionB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "1502524C-903F-476A-93C0-C0D69037F605 - 714642b0fe8c22f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int, (Swift.Int, Swift.Int, Swift.Int)) -&gt; Swift.Int in _2.SolutionB.execute(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/02/02/SolutionB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
