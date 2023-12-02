@@ -15,7 +15,6 @@ struct SolutionB: SolutionProtocol {
 		let scores = data.map { entry in
 			let preamble = entry.split(separator: ":").first!
 			let plays = String(entry.split(separator: ":").last!)
-			let round = Int(preamble.split(separator: " ").last!)!
 			let turns = plays.split(separator: ";")
 			let powers = turns.map {
 				let chunks = $0.split(separator: ",")
