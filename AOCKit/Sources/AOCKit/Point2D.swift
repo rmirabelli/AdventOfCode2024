@@ -19,4 +19,11 @@ public struct Point2D {
     public func manhattanDistance(_ other: Point2D) -> Int {
         abs(x - other.x) + abs(y - other.y)
     }
+
+	public func cartesianDistance(_ other: Point2D) -> Int {
+		let xDistance = Float(abs(x - other.x))
+		let yDistance = Float(abs(y - other.y))
+		let hyp = sqrt((xDistance * xDistance) + (xDistance * xDistance))
+		return Int(max(xDistance,(max(yDistance, hyp))))
+	}
 }
