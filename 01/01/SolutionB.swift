@@ -42,11 +42,7 @@ extension String {
 struct SolutionB: SolutionProtocol {
     var name = "Day 1 part 2"
     func execute(_ data: [String]) -> String {
-		var usable = data
-		if usable.last!.isEmpty {
-			usable.removeLast()
-		}
-		let substituted = usable.map { $0.replaceWords() }
+		let substituted = data.map { $0.replaceWords() }
 		let numbersOnly = substituted.map {$0.filter{$0.isNumber}}
 		let firstAndLast = numbersOnly.map{"\($0.first!)\($0.last!)"}
 		let integers = firstAndLast.map{Int($0)!}
