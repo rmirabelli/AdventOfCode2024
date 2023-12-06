@@ -39,7 +39,4 @@ struct Ticket {
 		Int(pow(Double(2),Double(matchCount-1)))
 	}
 
-	var wonCopies: Int {
-		return matchCount
-	}
 }

@@ -11,6 +11,7 @@
 		4612DDCA2AFD3D03001B922C /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDC62AFD3D03001B922C /* SolutionB.swift */; };
 		46231FD72B0E8542001F152E /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46231FD62B0E8542001F152E /* AOCKit */; };
 		468E2F6D2ADAF59800B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F6C2ADAF59800B274BD /* main.swift */; };
+		46F9A8C12B20D29000C96ABD /* RaceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F9A8C02B20D29000C96ABD /* RaceInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		46231FC92B0E8476001F152E /* SampleData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData.txt; sourceTree = "<group>"; };
 		468E2F692ADAF59800B274BD /* 06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 06; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2F6C2ADAF59800B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		46F9A8C02B20D29000C96ABD /* RaceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				468E2F6C2ADAF59800B274BD /* main.swift */,
 				4612DDC52AFD3D03001B922C /* SolutionA.swift */,
+				46F9A8C02B20D29000C96ABD /* RaceInfo.swift */,
 				4612DDC62AFD3D03001B922C /* SolutionB.swift */,
 				46231FC82B0E8476001F152E /* RealData.txt */,
 				46231FC92B0E8476001F152E /* SampleData.txt */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F9A8C12B20D29000C96ABD /* RaceInfo.swift in Sources */,
 				4612DDCA2AFD3D03001B922C /* SolutionB.swift in Sources */,
 				4612DDC82AFD3D03001B922C /* SolutionA.swift in Sources */,
 				468E2F6D2ADAF59800B274BD /* main.swift in Sources */,

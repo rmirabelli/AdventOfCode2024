@@ -11,6 +11,8 @@
 		4612DDC22AFD3CF4001B922C /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDB92AFD3CF3001B922C /* SolutionB.swift */; };
 		46231FD42B0E84ED001F152E /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46231FD32B0E84ED001F152E /* AOCKit */; };
 		468E2F5A2ADAF58B00B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F592ADAF58B00B274BD /* main.swift */; };
+		46F123542B1EE6D400F073E5 /* Almanac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F123532B1EE6D400F073E5 /* Almanac.swift */; };
+		46F123572B1EF49C00F073E5 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 46F123562B1EF49C00F073E5 /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,7 @@
 		46231FC72B0E846D001F152E /* SampleData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData.txt; sourceTree = "<group>"; };
 		468E2F562ADAF58B00B274BD /* 05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 05; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2F592ADAF58B00B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		46F123532B1EE6D400F073E5 /* Almanac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Almanac.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F123572B1EF49C00F073E5 /* Algorithms in Frameworks */,
 				46231FD42B0E84ED001F152E /* AOCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				468E2F592ADAF58B00B274BD /* main.swift */,
+				46F123532B1EE6D400F073E5 /* Almanac.swift */,
 				4612DDBA2AFD3CF3001B922C /* SolutionA.swift */,
 				4612DDB92AFD3CF3001B922C /* SolutionB.swift */,
 				46231FC62B0E846D001F152E /* RealData.txt */,
@@ -100,6 +105,7 @@
 			name = 05;
 			packageProductDependencies = (
 				46231FD32B0E84ED001F152E /* AOCKit */,
+				46F123562B1EF49C00F073E5 /* Algorithms */,
 			);
 			productName = 05;
 			productReference = 468E2F562ADAF58B00B274BD /* 05 */;
@@ -129,6 +135,9 @@
 				Base,
 			);
 			mainGroup = 468E2F4D2ADAF58B00B274BD;
+			packageReferences = (
+				46F123552B1EF49B00F073E5 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 468E2F572ADAF58B00B274BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				468E2F5A2ADAF58B00B274BD /* main.swift in Sources */,
+				46F123542B1EE6D400F073E5 /* Almanac.swift in Sources */,
 				4612DDC22AFD3CF4001B922C /* SolutionB.swift in Sources */,
 				4612DDC12AFD3CF4001B922C /* SolutionA.swift in Sources */,
 			);
@@ -315,10 +325,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		46F123552B1EF49B00F073E5 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		46231FD32B0E84ED001F152E /* AOCKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AOCKit;
+		};
+		46F123562B1EF49C00F073E5 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46F123552B1EF49B00F073E5 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

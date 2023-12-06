@@ -132,5 +132,181 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECB9C879-CF88-4B6D-9540-3CCA3FD7FC7A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "05/05/Almanac.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "valueFor(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F7A8A13-4E24-40F2-BEE5-873475FF605B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "05/05/Almanac.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "valueFor(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F7A8A13-4E24-40F2-BEE5-873475FF605B - 88f62c1277338c07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5.AlmanacMap.valueFor(Swift.Int) -&gt; Swift.Int"
+                  moduleName = "05"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/05/05/Almanac.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "6F7A8A13-4E24-40F2-BEE5-873475FF605B - 88f62c1277338c07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5.AlmanacMap.valueFor(Swift.Int) -&gt; Swift.Int"
+                  moduleName = "05"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/05/05/Almanac.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70870E57-1200-4D0B-A752-47D7337DCAC4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "05/05/Almanac.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "valueFor(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "70870E57-1200-4D0B-A752-47D7337DCAC4 - 88f62c1277338c78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5.AlmanacMap.valueFor(Swift.Int) -&gt; Swift.Int"
+                  moduleName = "05"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/05/05/Almanac.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "70870E57-1200-4D0B-A752-47D7337DCAC4 - 88f62c1277338c78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5.AlmanacMap.valueFor(Swift.Int) -&gt; Swift.Int"
+                  moduleName = "05"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/05/05/Almanac.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "512">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E6C1C2E-F272-456E-BB69-4A91ED277745"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "05/05/SolutionB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "execute(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3E6C1C2E-F272-456E-BB69-4A91ED277745 - 1102fb6aa2391a79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5.SolutionB.execute(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "05"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/05/05/SolutionB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1612">
+               </Location>
+               <Location
+                  uuid = "3E6C1C2E-F272-456E-BB69-4A91ED277745 - 2051d82685bc1791"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int) -&gt; Swift.Int in _5.SolutionB.execute(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "05"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/05/05/SolutionB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "909E2529-04FD-4A73-8388-92E0215E635C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "05/05/SolutionB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "execute(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

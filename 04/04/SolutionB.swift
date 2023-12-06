@@ -29,10 +29,8 @@ class SolutionB: SolutionProtocol {
 
     func execute(_ data: [String]) -> String {
 		tickets = data.map{ Ticket(line: $0) }
-		var totalTickets = 0
-		for i in 0..<tickets.count {
-			totalTickets += copies(i)
-		}
-		return "\(totalTickets)"
+		let ticketCopies = (0..<tickets.count).map{ copies($0) }
+		let sum = ticketCopies.reduce(0,+)
+		return "\(sum)"
     }
 }
