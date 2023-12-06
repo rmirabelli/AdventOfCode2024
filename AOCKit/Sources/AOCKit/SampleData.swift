@@ -11,11 +11,11 @@ public struct SampleData: DataProtocol {
     public var data: [String] {
         do {
             let full = try String(contentsOfFile: "SampleData.txt")
-			var allLines = full.components(separatedBy: "\n")
-			if allLines.last!.isEmpty {
-				allLines.removeLast()
-			}
-            return allLines
+            var usable = full.components(separatedBy: "\n")
+            if usable.last!.isEmpty {
+                usable.removeLast()
+            }
+            return usable
         } catch {
             print("Error reading file \(error)")
         }
