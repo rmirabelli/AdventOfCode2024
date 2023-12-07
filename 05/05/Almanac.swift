@@ -19,6 +19,14 @@ struct AlmanacMap {
 		}
 		return source
 	}
+	func sourceFor(_ destination: Int) -> Int {
+		for d in destinations.enumerated() {
+			if destination >= d.element && destination < d.element + sizes[d.offset] {
+				return sources[d.offset] + destination - d.element
+			}
+		}
+		return destination
+	}
 	init(sources: [Int], destinations: [Int], sizes: [Int]) {
 		self.sources = sources
 		self.destinations = destinations

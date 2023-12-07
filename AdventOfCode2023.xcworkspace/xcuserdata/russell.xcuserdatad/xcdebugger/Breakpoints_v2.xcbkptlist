@@ -254,8 +254,8 @@
             filePath = "05/05/SolutionB.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "execute(_:)"
             landmarkType = "7">
             <Locations>
@@ -295,17 +295,65 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "909E2529-04FD-4A73-8388-92E0215E635C"
+            uuid = "F657EDB7-1835-40F1-A22E-C783D1BAFC07"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "05/05/SolutionB.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "execute(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F657EDB7-1835-40F1-A22E-C783D1BAFC07 - 1102fb6aa2391b40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5.SolutionB.execute(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "05"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/05/05/SolutionB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1780">
+               </Location>
+               <Location
+                  uuid = "F657EDB7-1835-40F1-A22E-C783D1BAFC07 - 1102fb6aa2391b40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5.SolutionB.execute(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  moduleName = "05"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/05/05/SolutionB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1788">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F615888-C8EE-4036-8605-BE818196290F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "07/07/CamelHand.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "handType"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

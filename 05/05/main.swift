@@ -8,7 +8,7 @@
 import Foundation
 import AOCKit
 
-executeTimedSolution(SolutionA(), SampleData())
-executeTimedSolution(SolutionA(), RealData())
+//executeTimedSolution(SolutionA(), SampleData())
+//executeTimedSolution(SolutionA(), RealData())
 executeTimedSolution(SolutionB(), SampleData())
 //executeTimedSolution(SolutionB(), RealData())
