@@ -6,9 +6,12 @@
 //
 
 import Foundation
-
+import AOCKit
 struct SolutionA: SolutionProtocol {
+	var name = "a"
     func execute(_ data: [String]) -> String {
-        return data.first!
+		let map = GhostMap(data)
+		let count = map.steps("AAA", "ZZZ")
+        return "Cycles: \(count)"
     }
 }
