@@ -1,14 +1,18 @@
-//
-//  SolutionB.swift
-//  01
-//
-//  Created by Russell Mirabelli on 11/9/23.
-//
+	//
+	//  SolutionA.swift
+	//  02
+	//
+	//  Created by Russell Mirabelli on 11/9/23.
+	//
 
 import Foundation
+import AOCKit
+import Algorithms
 
 struct SolutionB: SolutionProtocol {
-    func execute(_ data: [String]) -> String {
-        return data.first!
-    }
+	var name = "Day 9 part 2"
+	func execute(_ data: [String]) -> String {
+		let oasis = Oasis(data)
+		return "\(oasis.extrapolate())"
+	}
 }

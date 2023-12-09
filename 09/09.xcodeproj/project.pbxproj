@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4612DDE62AFD3D18001B922C /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDE42AFD3D18001B922C /* Protocols.swift */; };
-		4612DDE72AFD3D18001B922C /* SolutionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDE22AFD3D18001B922C /* SolutionA.swift */; };
-		4612DDE82AFD3D18001B922C /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDE12AFD3D18001B922C /* SampleData.swift */; };
-		4612DDE92AFD3D18001B922C /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDE52AFD3D18001B922C /* SolutionB.swift */; };
-		4612DDEA2AFD3D18001B922C /* RealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDE32AFD3D18001B922C /* RealData.swift */; };
 		468E2FA62ADAF5C000B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2FA52ADAF5C000B274BD /* main.swift */; };
+		4698B7592B24C7CB004944C4 /* SolutionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698B7582B24C7CB004944C4 /* SolutionA.swift */; };
+		4698B75B2B24C7D6004944C4 /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698B75A2B24C7D6004944C4 /* SolutionB.swift */; };
+		4698B75E2B24C80E004944C4 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4698B75D2B24C80E004944C4 /* Algorithms */; };
+		4698B7612B24C816004944C4 /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4698B7602B24C816004944C4 /* AOCKit */; };
+		4698B7652B24C955004944C4 /* Oasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698B7642B24C955004944C4 /* Oasis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,13 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4612DDE12AFD3D18001B922C /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		4612DDE22AFD3D18001B922C /* SolutionA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionA.swift; sourceTree = "<group>"; };
-		4612DDE32AFD3D18001B922C /* RealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealData.swift; sourceTree = "<group>"; };
-		4612DDE42AFD3D18001B922C /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
-		4612DDE52AFD3D18001B922C /* SolutionB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionB.swift; sourceTree = "<group>"; };
 		468E2FA22ADAF5C000B274BD /* 09 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 09; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2FA52ADAF5C000B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4698B7582B24C7CB004944C4 /* SolutionA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionA.swift; sourceTree = "<group>"; };
+		4698B75A2B24C7D6004944C4 /* SolutionB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionB.swift; sourceTree = "<group>"; };
+		4698B7622B24C834004944C4 /* SampleData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData.txt; sourceTree = "<group>"; };
+		4698B7632B24C840004944C4 /* RealData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealData.txt; sourceTree = "<group>"; };
+		4698B7642B24C955004944C4 /* Oasis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oasis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4698B75E2B24C80E004944C4 /* Algorithms in Frameworks */,
+				4698B7612B24C816004944C4 /* AOCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +55,7 @@
 			children = (
 				468E2FA42ADAF5C000B274BD /* 09 */,
 				468E2FA32ADAF5C000B274BD /* Products */,
+				4698B75F2B24C816004944C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,13 +71,20 @@
 			isa = PBXGroup;
 			children = (
 				468E2FA52ADAF5C000B274BD /* main.swift */,
-				4612DDE42AFD3D18001B922C /* Protocols.swift */,
-				4612DDE12AFD3D18001B922C /* SampleData.swift */,
-				4612DDE32AFD3D18001B922C /* RealData.swift */,
-				4612DDE22AFD3D18001B922C /* SolutionA.swift */,
-				4612DDE52AFD3D18001B922C /* SolutionB.swift */,
+				4698B7582B24C7CB004944C4 /* SolutionA.swift */,
+				4698B7642B24C955004944C4 /* Oasis.swift */,
+				4698B75A2B24C7D6004944C4 /* SolutionB.swift */,
+				4698B7622B24C834004944C4 /* SampleData.txt */,
+				4698B7632B24C840004944C4 /* RealData.txt */,
 			);
 			path = 09;
+			sourceTree = "<group>";
+		};
+		4698B75F2B24C816004944C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +103,10 @@
 			dependencies = (
 			);
 			name = 09;
+			packageProductDependencies = (
+				4698B75D2B24C80E004944C4 /* Algorithms */,
+				4698B7602B24C816004944C4 /* AOCKit */,
+			);
 			productName = 09;
 			productReference = 468E2FA22ADAF5C000B274BD /* 09 */;
 			productType = "com.apple.product-type.tool";
@@ -121,6 +135,9 @@
 				Base,
 			);
 			mainGroup = 468E2F992ADAF5C000B274BD;
+			packageReferences = (
+				4698B75C2B24C80E004944C4 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 468E2FA32ADAF5C000B274BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -135,12 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4612DDE92AFD3D18001B922C /* SolutionB.swift in Sources */,
-				4612DDE72AFD3D18001B922C /* SolutionA.swift in Sources */,
+				4698B75B2B24C7D6004944C4 /* SolutionB.swift in Sources */,
+				4698B7652B24C955004944C4 /* Oasis.swift in Sources */,
+				4698B7592B24C7CB004944C4 /* SolutionA.swift in Sources */,
 				468E2FA62ADAF5C000B274BD /* main.swift in Sources */,
-				4612DDEA2AFD3D18001B922C /* RealData.swift in Sources */,
-				4612DDE62AFD3D18001B922C /* Protocols.swift in Sources */,
-				4612DDE82AFD3D18001B922C /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +324,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4698B75C2B24C80E004944C4 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4698B75D2B24C80E004944C4 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4698B75C2B24C80E004944C4 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		4698B7602B24C816004944C4 /* AOCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AOCKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 468E2F9A2ADAF5C000B274BD /* Project object */;
 }

@@ -1,14 +1,17 @@
 //
 //  SolutionA.swift
-//  01
+//  09
 //
-//  Created by Russell Mirabelli on 11/9/23.
+//  Created by Russell Mirabelli on 12/9/23.
 //
 
 import Foundation
+import AOCKit
 
 struct SolutionA: SolutionProtocol {
-    func execute(_ data: [String]) -> String {
-        return data.first!
-    }
+	var name = "Day 9 part 1"
+	func execute(_ data: [String]) -> String {
+		let oasis = Oasis(data)
+		return "\(oasis.prediction())"
+	}
 }
