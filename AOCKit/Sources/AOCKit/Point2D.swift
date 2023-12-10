@@ -16,6 +16,10 @@ public struct Point2D {
         self.y = y
     }
 
+	public init(_ x: Int, _ y: Int) {
+		self.init(x: x, y: y)
+	}
+
     public func manhattanDistance(_ other: Point2D) -> Int {
         abs(x - other.x) + abs(y - other.y)
     }
@@ -27,3 +31,5 @@ public struct Point2D {
 		return Int(max(xDistance,(max(yDistance, hyp))))
 	}
 }
+
+extension Point2D: Equatable {}

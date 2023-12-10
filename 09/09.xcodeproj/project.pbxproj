@@ -71,8 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				468E2FA52ADAF5C000B274BD /* main.swift */,
-				4698B7582B24C7CB004944C4 /* SolutionA.swift */,
 				4698B7642B24C955004944C4 /* Oasis.swift */,
+				4698B7582B24C7CB004944C4 /* SolutionA.swift */,
 				4698B75A2B24C7D6004944C4 /* SolutionB.swift */,
 				4698B7622B24C834004944C4 /* SampleData.txt */,
 				4698B7632B24C840004944C4 /* RealData.txt */,

@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4612DDF02AFD3D1F001B922C /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDEB2AFD3D1F001B922C /* Protocols.swift */; };
-		4612DDF12AFD3D1F001B922C /* RealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDEC2AFD3D1F001B922C /* RealData.swift */; };
 		4612DDF22AFD3D1F001B922C /* SolutionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDED2AFD3D1F001B922C /* SolutionA.swift */; };
-		4612DDF32AFD3D1F001B922C /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDEF2AFD3D1F001B922C /* SampleData.swift */; };
 		4612DDF42AFD3D1F001B922C /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDEE2AFD3D1F001B922C /* SolutionB.swift */; };
 		468E2FB92ADAF5CF00B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2FB82ADAF5CF00B274BD /* main.swift */; };
+		4698B76A2B24D36A004944C4 /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4698B7692B24D36A004944C4 /* AOCKit */; };
+		4698B76D2B25E8D1004944C4 /* PipeMaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698B76C2B25E8D1004944C4 /* PipeMaze.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,13 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4612DDEB2AFD3D1F001B922C /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
-		4612DDEC2AFD3D1F001B922C /* RealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealData.swift; sourceTree = "<group>"; };
 		4612DDED2AFD3D1F001B922C /* SolutionA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionA.swift; sourceTree = "<group>"; };
 		4612DDEE2AFD3D1F001B922C /* SolutionB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionB.swift; sourceTree = "<group>"; };
-		4612DDEF2AFD3D1F001B922C /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		468E2FB52ADAF5CF00B274BD /* 10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 10; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2FB82ADAF5CF00B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4698B7662B24D34F004944C4 /* SampleData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData.txt; sourceTree = "<group>"; };
+		4698B7672B24D35C004944C4 /* RealData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealData.txt; sourceTree = "<group>"; };
+		4698B76B2B25E7F9004944C4 /* SampleData2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData2.txt; sourceTree = "<group>"; };
+		4698B76C2B25E8D1004944C4 /* PipeMaze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeMaze.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4698B76A2B24D36A004944C4 /* AOCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +54,7 @@
 			children = (
 				468E2FB72ADAF5CF00B274BD /* 10 */,
 				468E2FB62ADAF5CF00B274BD /* Products */,
+				4698B7682B24D36A004944C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,13 +70,21 @@
 			isa = PBXGroup;
 			children = (
 				468E2FB82ADAF5CF00B274BD /* main.swift */,
-				4612DDEB2AFD3D1F001B922C /* Protocols.swift */,
-				4612DDEF2AFD3D1F001B922C /* SampleData.swift */,
-				4612DDEC2AFD3D1F001B922C /* RealData.swift */,
 				4612DDED2AFD3D1F001B922C /* SolutionA.swift */,
+				4698B76C2B25E8D1004944C4 /* PipeMaze.swift */,
 				4612DDEE2AFD3D1F001B922C /* SolutionB.swift */,
+				4698B7662B24D34F004944C4 /* SampleData.txt */,
+				4698B76B2B25E7F9004944C4 /* SampleData2.txt */,
+				4698B7672B24D35C004944C4 /* RealData.txt */,
 			);
 			path = 10;
+			sourceTree = "<group>";
+		};
+		4698B7682B24D36A004944C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +103,9 @@
 			dependencies = (
 			);
 			name = 10;
+			packageProductDependencies = (
+				4698B7692B24D36A004944C4 /* AOCKit */,
+			);
 			productName = 10;
 			productReference = 468E2FB52ADAF5CF00B274BD /* 10 */;
 			productType = "com.apple.product-type.tool";
@@ -136,11 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4612DDF22AFD3D1F001B922C /* SolutionA.swift in Sources */,
-				4612DDF12AFD3D1F001B922C /* RealData.swift in Sources */,
 				468E2FB92ADAF5CF00B274BD /* main.swift in Sources */,
+				4698B76D2B25E8D1004944C4 /* PipeMaze.swift in Sources */,
 				4612DDF42AFD3D1F001B922C /* SolutionB.swift in Sources */,
-				4612DDF32AFD3D1F001B922C /* SampleData.swift in Sources */,
-				4612DDF02AFD3D1F001B922C /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +320,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4698B7692B24D36A004944C4 /* AOCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AOCKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 468E2FAD2ADAF5CF00B274BD /* Project object */;
 }
