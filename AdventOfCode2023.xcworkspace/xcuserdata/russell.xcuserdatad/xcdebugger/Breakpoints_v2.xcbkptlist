@@ -368,8 +368,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "146"
             endingLineNumber = "146"
-            landmarkName = "PipeMaze"
-            landmarkType = "14">
+            landmarkName = "computeDistances()"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "A96F67D1-02FF-4166-9F9F-3870AE5A8330 - 3b137f2d7d0034a2"
@@ -433,6 +433,70 @@
             startingLineNumber = "116"
             endingLineNumber = "116"
             landmarkName = "loopLength()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AADC5CBF-CA21-4EA9-8681-0757934DCFB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11/11/Observation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "init(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AADC5CBF-CA21-4EA9-8681-0757934DCFB4 - d7f490dcd2abd6ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1.Observation.init(Swift.Array&lt;Swift.String&gt;) -&gt; _1.Observation"
+                  moduleName = "11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/11/11/Observation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "3080">
+               </Location>
+               <Location
+                  uuid = "AADC5CBF-CA21-4EA9-8681-0757934DCFB4 - d7f490dcd2abd65b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1.Observation.init(Swift.Array&lt;Swift.String&gt;) -&gt; _1.Observation"
+                  moduleName = "11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/russell/projects/AdventOfCode2023/11/11/Observation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "3180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06C52808-F79B-4B50-9181-317C04D40CF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11/11/Observation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "init(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

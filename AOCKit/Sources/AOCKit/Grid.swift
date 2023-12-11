@@ -21,6 +21,12 @@ public struct Grid {
         self.emptyCharacter = emptyCharacter
     }
 
+	public init(lines: [String], emptyCharacter: Character) {
+		let xDimension = lines.first!.count
+		let yDimension = lines.count
+		self.init(xDimension: xDimension, yDimension: yDimension, emptyCharacter: emptyCharacter)
+	}
+
     /// Prepare an empty grid. Pass this in to
     /// the render function each time you
     /// want to show some points

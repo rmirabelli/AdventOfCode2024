@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4612DE042AFD3D2D001B922C /* RealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DE002AFD3D2D001B922C /* RealData.swift */; };
 		4612DE052AFD3D2D001B922C /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DE012AFD3D2D001B922C /* SolutionB.swift */; };
-		4612DE062AFD3D2D001B922C /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DE032AFD3D2D001B922C /* Protocols.swift */; };
-		4612DE072AFD3D2D001B922C /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDFF2AFD3D2D001B922C /* SampleData.swift */; };
 		4612DE082AFD3D2D001B922C /* SolutionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DE022AFD3D2D001B922C /* SolutionA.swift */; };
 		468E2FDF2ADAF5F500B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2FDE2ADAF5F500B274BD /* main.swift */; };
+		4698B77C2B27A82C004944C4 /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4698B77B2B27A82C004944C4 /* AOCKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,13 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4612DDFF2AFD3D2D001B922C /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		4612DE002AFD3D2D001B922C /* RealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealData.swift; sourceTree = "<group>"; };
 		4612DE012AFD3D2D001B922C /* SolutionB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionB.swift; sourceTree = "<group>"; };
 		4612DE022AFD3D2D001B922C /* SolutionA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionA.swift; sourceTree = "<group>"; };
-		4612DE032AFD3D2D001B922C /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		468E2FDB2ADAF5F500B274BD /* 12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 12; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2FDE2ADAF5F500B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4698B77D2B27A85F004944C4 /* sample.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.txt; sourceTree = "<group>"; };
+		4698B77E2B27A86B004944C4 /* real.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = real.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4698B77C2B27A82C004944C4 /* AOCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +51,7 @@
 			children = (
 				468E2FDD2ADAF5F500B274BD /* 12 */,
 				468E2FDC2ADAF5F500B274BD /* Products */,
+				4698B77A2B27A82C004944C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,13 +67,19 @@
 			isa = PBXGroup;
 			children = (
 				468E2FDE2ADAF5F500B274BD /* main.swift */,
-				4612DE032AFD3D2D001B922C /* Protocols.swift */,
-				4612DDFF2AFD3D2D001B922C /* SampleData.swift */,
-				4612DE002AFD3D2D001B922C /* RealData.swift */,
 				4612DE022AFD3D2D001B922C /* SolutionA.swift */,
 				4612DE012AFD3D2D001B922C /* SolutionB.swift */,
+				4698B77D2B27A85F004944C4 /* sample.txt */,
+				4698B77E2B27A86B004944C4 /* real.txt */,
 			);
 			path = 12;
+			sourceTree = "<group>";
+		};
+		4698B77A2B27A82C004944C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +98,9 @@
 			dependencies = (
 			);
 			name = 12;
+			packageProductDependencies = (
+				4698B77B2B27A82C004944C4 /* AOCKit */,
+			);
 			productName = 12;
 			productReference = 468E2FDB2ADAF5F500B274BD /* 12 */;
 			productType = "com.apple.product-type.tool";
@@ -138,9 +146,6 @@
 				4612DE082AFD3D2D001B922C /* SolutionA.swift in Sources */,
 				4612DE052AFD3D2D001B922C /* SolutionB.swift in Sources */,
 				468E2FDF2ADAF5F500B274BD /* main.swift in Sources */,
-				4612DE042AFD3D2D001B922C /* RealData.swift in Sources */,
-				4612DE072AFD3D2D001B922C /* SampleData.swift in Sources */,
-				4612DE062AFD3D2D001B922C /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +314,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4698B77B2B27A82C004944C4 /* AOCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AOCKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 468E2FD32ADAF5F500B274BD /* Project object */;
 }

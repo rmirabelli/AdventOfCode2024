@@ -6,8 +6,10 @@
 //
 
 import Foundation
+import AOCKit
 
 struct SolutionA: SolutionProtocol {
+	var name = "Day 12 part 1"
     func execute(_ data: [String]) -> String {
         return data.first!
     }
