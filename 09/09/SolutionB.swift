@@ -12,7 +12,6 @@ import Algorithms
 struct SolutionB: SolutionProtocol {
 	var name = "Day 9 part 2"
 	func execute(_ data: [String]) -> String {
-		let oasis = Oasis(data)
-		return "\(oasis.extrapolate())"
+		""
 	}
 }

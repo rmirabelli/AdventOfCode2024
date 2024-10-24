@@ -8,10 +8,8 @@
 import Foundation
 import AOCKit
 
-//executeTimedSolution(SolutionA(), SampleData())
+executeTimedSolution(SolutionA(), SampleData())
 //executeTimedSolution(SolutionA(), RealData())
 //executeTimedSolution(SolutionB(), SampleData())
-executeTimedSolution(SolutionB(), RealData()) 
-// 250074085 was wrong.
-// so was 250501411
+//executeTimedSolution(SolutionB(), RealData())
 

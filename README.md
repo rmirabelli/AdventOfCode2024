@@ -1,4 +1,4 @@
-# AdventOfCode2023
+# AdventOfCode2024
 
 ## Grabbing the data via cURL:
 

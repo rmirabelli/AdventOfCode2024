@@ -11,7 +11,6 @@
 		4612DDAD2AFD3CDC001B922C /* SolutionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDA52AFD3CDC001B922C /* SolutionA.swift */; };
 		46231FCE2B0E84A0001F152E /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46231FCD2B0E84A0001F152E /* AOCKit */; };
 		468E2F342ADAF56400B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F332ADAF56400B274BD /* main.swift */; };
-		46F123502B1CDCF500F073E5 /* DayThreeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F1234F2B1CDCF500F073E5 /* DayThreeSolution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +32,6 @@
 		46231FC32B0E8458001F152E /* RealData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealData.txt; sourceTree = "<group>"; };
 		468E2F302ADAF56400B274BD /* 03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 03; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E2F332ADAF56400B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		46F1234F2B1CDCF500F073E5 /* DayThreeSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayThreeSolution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				468E2F332ADAF56400B274BD /* main.swift */,
-				46F1234F2B1CDCF500F073E5 /* DayThreeSolution.swift */,
 				4612DDA52AFD3CDC001B922C /* SolutionA.swift */,
 				4612DDA82AFD3CDC001B922C /* SolutionB.swift */,
 				46231FC32B0E8458001F152E /* RealData.txt */,
@@ -146,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46F123502B1CDCF500F073E5 /* DayThreeSolution.swift in Sources */,
 				4612DDAC2AFD3CDC001B922C /* SolutionB.swift in Sources */,
 				468E2F342ADAF56400B274BD /* main.swift in Sources */,
 				4612DDAD2AFD3CDC001B922C /* SolutionA.swift in Sources */,

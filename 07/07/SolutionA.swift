@@ -11,11 +11,6 @@ import AOCKit
 struct SolutionA: SolutionProtocol {
 	var name = "a"
     func execute(_ data: [String]) -> String {
-		let hands = data.map { CamelHand($0) }
-		let enumerated = hands.sorted().reversed().enumerated()
-		let reduced = enumerated.reduce(0) { partialResult, e in
-			partialResult + (e.offset + 1) * e.element.bid
-		}
-        return "\(reduced)"
+		""
     }
 }

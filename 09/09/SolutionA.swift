@@ -11,7 +11,6 @@ import AOCKit
 struct SolutionA: SolutionProtocol {
 	var name = "Day 9 part 1"
 	func execute(_ data: [String]) -> String {
-		let oasis = Oasis(data)
-		return "\(oasis.prediction())"
+		""
 	}
 }

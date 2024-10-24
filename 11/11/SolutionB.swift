@@ -11,6 +11,6 @@ import AOCKit
 struct SolutionB: SolutionProtocol {
 	var name = "Day 11 part 1"
 	func execute(_ data: [String]) -> String {
-        return data.first!
+		""
     }
 }

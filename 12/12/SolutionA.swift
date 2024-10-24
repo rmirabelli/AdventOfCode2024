@@ -11,8 +11,6 @@ import AOCKit
 struct SolutionA: SolutionProtocol {
 	var name = "Day 12 part 1"
     func execute(_ data: [String]) -> String {
-		let records = data.map{ConditionRecord($0)}
-		print(records.map{$0.possibilities.count} )
-        return data.first!
+		""
     }
 }

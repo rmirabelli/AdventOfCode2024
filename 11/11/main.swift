@@ -9,7 +9,7 @@ import Foundation
 import AOCKit
 
 executeTimedSolution(SolutionA(), FileData("sample"))
-executeTimedSolution(SolutionA(), FileData("real"))
+//executeTimedSolution(SolutionA(), FileData("real"))
 //executeTimedSolution(SolutionB(), FileData("sample"))
 //executeTimedSolution(SolutionB(), FileData("real"))
 

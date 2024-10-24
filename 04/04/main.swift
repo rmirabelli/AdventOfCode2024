@@ -9,7 +9,7 @@ import Foundation
 import AOCKit
 
 executeTimedSolution(SolutionA(), SampleData())
-executeTimedSolution(SolutionA(), RealData())
-executeTimedSolution(SolutionB(), SampleData())
+//executeTimedSolution(SolutionA(), RealData())
+//executeTimedSolution(SolutionB(), SampleData())
 //executeTimedSolution(SolutionB(), RealData()) // not 7216...
 

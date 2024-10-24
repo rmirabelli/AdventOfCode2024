@@ -13,7 +13,6 @@ import Algorithms
 struct SolutionA: SolutionProtocol {
 	var name = "Solution A"
     func execute(_ data: [String]) -> String {
-		let tickets = data.map{ Ticket(line: $0) }
-		return "\(tickets.reduce(0) {$0 + $1.score})"
+		""
     }
 }

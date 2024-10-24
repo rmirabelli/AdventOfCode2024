@@ -11,8 +11,6 @@
 		4612DDFE2AFD3D26001B922C /* SolutionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDF72AFD3D26001B922C /* SolutionA.swift */; };
 		468E2FCC2ADAF5E000B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2FCB2ADAF5E000B274BD /* main.swift */; };
 		4698B7702B26699C004944C4 /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4698B76F2B26699C004944C4 /* AOCKit */; };
-		4698B7742B278565004944C4 /* Galaxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698B7732B278565004944C4 /* Galaxy.swift */; };
-		4698B7762B2785C3004944C4 /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698B7752B2785C3004944C4 /* Observation.swift */; };
 		4698B7792B279D2E004944C4 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4698B7782B279D2E004944C4 /* Algorithms */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +33,6 @@
 		468E2FCB2ADAF5E000B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4698B7712B2669EB004944C4 /* sample.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.txt; sourceTree = "<group>"; };
 		4698B7722B266A03004944C4 /* real.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = real.txt; sourceTree = "<group>"; };
-		4698B7732B278565004944C4 /* Galaxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galaxy.swift; sourceTree = "<group>"; };
-		4698B7752B2785C3004944C4 /* Observation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				468E2FCB2ADAF5E000B274BD /* main.swift */,
-				4698B7732B278565004944C4 /* Galaxy.swift */,
-				4698B7752B2785C3004944C4 /* Observation.swift */,
 				4612DDF72AFD3D26001B922C /* SolutionA.swift */,
 				4612DDF52AFD3D26001B922C /* SolutionB.swift */,
 				4698B7712B2669EB004944C4 /* sample.txt */,
@@ -156,10 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4612DDFE2AFD3D26001B922C /* SolutionA.swift in Sources */,
-				4698B7742B278565004944C4 /* Galaxy.swift in Sources */,
 				4612DDFD2AFD3D26001B922C /* SolutionB.swift in Sources */,
 				468E2FCC2ADAF5E000B274BD /* main.swift in Sources */,
-				4698B7762B2785C3004944C4 /* Observation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

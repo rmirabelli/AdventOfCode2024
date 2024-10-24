@@ -12,7 +12,6 @@
 		4698B75B2B24C7D6004944C4 /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698B75A2B24C7D6004944C4 /* SolutionB.swift */; };
 		4698B75E2B24C80E004944C4 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4698B75D2B24C80E004944C4 /* Algorithms */; };
 		4698B7612B24C816004944C4 /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4698B7602B24C816004944C4 /* AOCKit */; };
-		4698B7652B24C955004944C4 /* Oasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698B7642B24C955004944C4 /* Oasis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +33,6 @@
 		4698B75A2B24C7D6004944C4 /* SolutionB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionB.swift; sourceTree = "<group>"; };
 		4698B7622B24C834004944C4 /* SampleData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData.txt; sourceTree = "<group>"; };
 		4698B7632B24C840004944C4 /* RealData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealData.txt; sourceTree = "<group>"; };
-		4698B7642B24C955004944C4 /* Oasis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oasis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				468E2FA52ADAF5C000B274BD /* main.swift */,
-				4698B7642B24C955004944C4 /* Oasis.swift */,
 				4698B7582B24C7CB004944C4 /* SolutionA.swift */,
 				4698B75A2B24C7D6004944C4 /* SolutionB.swift */,
 				4698B7622B24C834004944C4 /* SampleData.txt */,
@@ -153,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4698B75B2B24C7D6004944C4 /* SolutionB.swift in Sources */,
-				4698B7652B24C955004944C4 /* Oasis.swift in Sources */,
 				4698B7592B24C7CB004944C4 /* SolutionA.swift in Sources */,
 				468E2FA62ADAF5C000B274BD /* main.swift in Sources */,
 			);

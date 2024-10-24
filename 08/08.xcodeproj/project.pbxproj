@@ -11,7 +11,6 @@
 		4612DDDF2AFD3D11001B922C /* SolutionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612DDD92AFD3D11001B922C /* SolutionB.swift */; };
 		468E2F932ADAF5B300B274BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E2F922ADAF5B300B274BD /* main.swift */; };
 		46B00D922B234B95003E71CB /* AOCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46B00D912B234B95003E71CB /* AOCKit */; };
-		46B00D962B235842003E71CB /* GhostMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B00D952B235842003E71CB /* GhostMap.swift */; };
 		46B00D992B2363A9003E71CB /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 46B00D982B2363A9003E71CB /* Algorithms */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		468E2F922ADAF5B300B274BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		46B00D932B234BD7003E71CB /* SampleData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleData.txt; sourceTree = "<group>"; };
 		46B00D942B234BEE003E71CB /* RealData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RealData.txt; sourceTree = "<group>"; };
-		46B00D952B235842003E71CB /* GhostMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +71,6 @@
 				468E2F922ADAF5B300B274BD /* main.swift */,
 				4612DDD82AFD3D11001B922C /* SolutionA.swift */,
 				4612DDD92AFD3D11001B922C /* SolutionB.swift */,
-				46B00D952B235842003E71CB /* GhostMap.swift */,
 				46B00D932B234BD7003E71CB /* SampleData.txt */,
 				46B00D942B234BEE003E71CB /* RealData.txt */,
 			);
@@ -152,7 +149,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B00D962B235842003E71CB /* GhostMap.swift in Sources */,
 				4612DDDF2AFD3D11001B922C /* SolutionB.swift in Sources */,
 				4612DDDE2AFD3D11001B922C /* SolutionA.swift in Sources */,
 				468E2F932ADAF5B300B274BD /* main.swift in Sources */,
