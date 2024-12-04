@@ -10,6 +10,6 @@ import AOCKit
 
 // Sample data changes between step one and two! That's evil!
 executeTimedSolution(SolutionA(), SampleData())
-//executeTimedSolution(SolutionA(), RealData()) // 7 minutes! rank 3101
-//executeTimedSolution(SolutionB(), SampleData())
-//executeTimedSolution(SolutionB(), RealData()) // total of 28 minutes! rank 6808
+executeTimedSolution(SolutionA(), RealData())
+executeTimedSolution(SolutionB(), SampleData())
+executeTimedSolution(SolutionB(), RealData())
